@@ -360,3 +360,105 @@
 Processing PagesController#home (for 127.0.0.1 at 2014-02-10 13:15:57) [GET]
 Rendering pages/home
 Completed in 50ms (View: 49 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 15:56:07) [GET]
+Rendering pages/contact
+Completed in 6ms (View: 5 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 15:56:11) [GET]
+Rendering pages/about
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:10:25) [GET]
+Rendering pages/home
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:17:07) [GET]
+Rendering pages/home
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:17:09) [GET]
+Rendering pages/home
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 16:26:58) [GET]
+Rendering pages/about
+Completed in 3ms (View: 1 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 16:28:54) [GET]
+Rendering pages/about
+Completed in 5ms (View: 3 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 16:28:56) [GET]
+Rendering pages/about
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:29:03) [GET]
+Rendering pages/contact
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:37:25) [GET]
+Rendering pages/contact
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:37:26) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:37:31) [GET]
+Rendering pages/home
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 16:38:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 8 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:38:51) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:38:56) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-10 16:41:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:41:06) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-10 16:41:22) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-10 16:41:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 47ms (View: 46 | 200 OK [http://0.0.0.0/pages/about]
