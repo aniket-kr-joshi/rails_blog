@@ -2002,3 +2002,221 @@ Rendered layouts/_stylesheets (0.4ms)
 Rendered layouts/_header (0.3ms)
 Rendered layouts/_footer (0.1ms)
 Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:17:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:17:49) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:18:45) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-12 16:18:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:19:25) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:22:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+
+ActionView::TemplateError (undefined local variable or method `logo' for #<ActionView::Base:0x7fa4ff8832a8>) on line #3 of app/views/layouts/_header.html.erb:
+1: <div id="header" class="round">
+2: 	<%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3: 	<%= link_to logo, root_path %>
+4: 	<ul class="navigation round">
+5: 		<li><%= link_to "Home", 'root_path' %></li>
+6: 		<li><%= link_to "Help", '#' %></li>
+
+    app/views/layouts/_header.html.erb:3
+    app/views/layouts/application.html.erb:8
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (80.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:23:05) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:23:05) [GET]
+
+ActionController::RoutingError (No route matches "/about_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:23:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 9ms (View: 8 | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:23:11) [GET]
+
+ActionController::RoutingError (No route matches "/root_path" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-12 16:23:17) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:23:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 7ms (View: 6 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:23:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:23:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:23:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-12 16:23:44) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-12 16:23:46) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-12 16:26:06) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:26:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
