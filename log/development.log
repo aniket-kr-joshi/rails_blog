@@ -1798,3 +1798,207 @@ Processing PagesController#about (for 127.0.0.1 at 2014-02-12 11:30:39) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 110ms (View: 109 | 200 OK [http://0.0.0.0/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:37:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 14:37:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 14:37:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:43:04) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 14:43:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:12) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:15) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:17) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:17) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:46:17) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 14:50:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 15:41:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.8ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 20ms (View: 19 | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 15:57:11) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 15:57:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-12 15:57:29) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:03:15) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-12 16:03:22) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:05:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:05:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:05:12) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:05:12) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-12 16:05:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]

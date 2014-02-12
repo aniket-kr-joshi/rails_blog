@@ -1,9 +1,15 @@
 <html>
 	<head>
 		<title><%= title %></title>
-		<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
-	</head>
+		<%= render 'layouts/stylesheets' %>
+	</head>	
 	<body>
-		<%= yield %>
+		<div class="container">
+			<%= render 'layouts/header' %>
+			<div id="content" class="round">
+				<%= yield %>
+			</div>
+			<%= render 'layouts/footer' %>
+		</div>
 	</body>
 </html>
