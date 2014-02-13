@@ -2220,3 +2220,893 @@ Rendered layouts/_stylesheets (0.3ms)
 Rendered layouts/_header (0.3ms)
 Rendered layouts/_footer (0.1ms)
 Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:40) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (70.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:40) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (31.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (86.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (31.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (85.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (87.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:45) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:44:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #4 of app/views/layouts/application.html.erb:
+1: <html>
+2: 	<head>
+3: 		<title><%= title %></title>
+4: 		<%= render 'layouts/stylesheets' %>
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+
+    app/views/layouts/application.html.erb:4
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:48:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+
+ActionView::TemplateError (Missing layout layouts/_header.erb in view path app/views) on line #8 of app/views/layouts/application.html.erb:
+5: 	</head>	
+6: 	<body>
+7: 		<div class="container">
+8: 			<%= render 'layouts/header' %>
+9: 			<div id="content" class="round">
+10: 				<%= yield %>
+11: 			</div>
+
+    app/views/layouts/application.html.erb:8
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:54:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 10ms (View: 9 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:54:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 11:54:49) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 11:54:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 11:54:54) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 6ms (View: 5 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 11:54:56) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 11:54:57) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 12:01:15) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 12:01:16) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 12:01:17) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 12:01:19) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 7ms (View: 6 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#signup (for 127.0.0.1 at 2014-02-13 12:01:20) [GET]
+Rendering template within layouts/application
+Rendering pages/signup
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 12:01:26) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#signup (for 127.0.0.1 at 2014-02-13 12:01:28) [GET]
+Rendering template within layouts/application
+Rendering pages/signup
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 12:01:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 16:01:34) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 16:01:36) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 16:01:38) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 16:01:39) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 49ms (View: 48 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 16:01:40) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 16:01:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 16:01:43) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 16:02:09) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 16:02:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 5ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#signup (for 127.0.0.1 at 2014-02-13 16:02:12) [GET]
+Rendering template within layouts/application
+Rendering pages/signup
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 16:02:15) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 16:02:17) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:08:47) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#signup (for 127.0.0.1 at 2014-02-13 17:08:55) [GET]
+Rendering template within layouts/application
+Rendering pages/signup
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/signup]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-13 17:20:10) [GET]
+
+ActionController::RoutingError (No route matches "/signup" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-13 17:20:15) [GET]
+
+ActionController::RoutingError (No route matches "/signup" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-13 17:20:58) [GET]
+
+ActionController::RoutingError (No route matches "/signup" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.9ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 21ms (View: 19 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:24) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:29) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:31) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:31) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:21:35) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-13 17:21:37) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-13 17:21:38) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:27:57) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 4 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:27:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2014-02-13 17:28:01) [GET]
+
+ActionController::UnknownAction (No action responded to signup. Actions: new):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:35) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 11ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-13 17:29:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.2ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2014-02-13 17:29:42) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.3ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://0.0.0.0/signup]
