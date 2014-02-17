@@ -1,0 +1,42 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2014-02-17 11:59:53) [GET]
+
+ActionController::RoutingError (No route matches "/users/show/1" with {:method=>:get}):
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-17 12:00:01) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2014-02-17 12:00:04) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2014-02-17 12:00:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2014-02-17 12:00:13) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2014-02-17 12:00:14) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/contact]
