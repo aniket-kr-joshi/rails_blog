@@ -1,17 +1,23 @@
-<h2>Sign in</h2>
+<% if !signed_in? %>
+	<h2>Sign in</h2>
 
-<% form_for(:session, :url => sessions_path) do |f| %>
-	<div class="field">
-		<%= f.label :email %><br />
-		<%= f.text_field :email %>
-	</div>
-	<div class="field">
-	<%= f.label :password %><br />
-	<%= f.password_field :password %>
-	</div>
-	<div class="actions">
-		<%= f.submit "Sign in" %>
-	</div>
+	<% form_for(:session, :url => sessions_path) do |f| %>
+		<div class="field">
+			<%= f.label :email %><br />
+			<%= f.text_field :email %>
+		</div>
+		
+		<div class="field">
+		<%= f.label :password %><br />
+		<%= f.password_field :password %>
+		</div>
+		
+		<div class="actions">
+			<%= f.submit "Sign in" %>
+		</div>
+	<% end %>
+
+	<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+<% else %>
+	<% flash[:notice] = "Already Signed In. Please logout first" %>
 <% end %>
-
-<p>New user? <%= link_to "Sign up now!", signup_path %></p>

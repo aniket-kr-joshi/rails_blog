@@ -1,7 +1,11 @@
-<h2>Sign up</h2>
-<% form_for(@user) do |f| %>
-	<%= render :partial => 'fields', :locals => { :f => f } %>
-	<div class="actions">
-		<%= f.submit "Sign up" %>
-	</div>
+<% if signed_in? %>
+	<%= render @user%>
+<% else %>
+	<h2>Sign up</h2>
+	<% form_for(@user) do |f| %>
+		<%= render :partial => 'fields', :locals => { :f => f } %>
+		<div class="actions">
+			<%= f.submit "Sign up" %>
+		</div>
+	<% end %>
 <% end %>
